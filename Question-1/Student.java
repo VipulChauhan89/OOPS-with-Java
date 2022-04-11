@@ -1,20 +1,13 @@
 import java.util.*;
 public class Student
 {
-	String Name,Branch;
+	String Name,Branch,University;
 	int Id;
-	static String University;
-	Student()
-	{
-	}
-	Student(String University)
-	{
-		this.University=University;
-	}
-	void setDetails(String Name,int Id,String Branch)
+	void setDetails(String Name,int Id,String University,String Branch)
 	{
 		this.Name=Name;
 		this.Id=Id;
+		this.University=University;
 		this.Branch=Branch;
 	}
 	void showDetails()
@@ -46,12 +39,8 @@ public class Student
 		Branch=in.nextLine();
 		
 		
-		Student a=new Student(University);
-		a.setDetails(Name,Id,Branch);
+		Student a=new Student();
+		a.setDetails(Name,Id,University,Branch);
 		a.showDetails();
-
-		Student b=new Student();
-		b.setDetails(Name,Id,Branch);
-		b.showDetails();
 	}
 }
