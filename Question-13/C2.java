@@ -3,9 +3,9 @@ import java.util.*;
 import P1.*;
 public class C2 implements I1
 {
-	public int mult(int a,int b)
+	public int division(int a,int b)
 	{
-		return a*b;
+		return a/b;
 	}
 	public static void main(String args[])
 	{
@@ -17,7 +17,7 @@ public class C2 implements I1
 		System.out.print("Enter second numbers : ");
 		int b=in.nextInt();
 		System.out.println("Sum = "+d.sum(a,b));
-		System.out.println("Division = "+d.div((float)a,(float)b));
-		System.out.println("Multiplication = "+c.mult(a,b));
+		System.out.println("Subtract = "+d.sub(a,b));
+		System.out.println("Division = "+c.division(a,b));
 	}
 }
