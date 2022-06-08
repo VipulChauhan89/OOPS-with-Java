@@ -5,8 +5,8 @@ public class C1
 	{
 		return a+b;
 	}
-	public float div(float a,float b)
+	public int sub(int a,int b)
 	{
-		return a/b;
+		return a-b;
 	}
 }
