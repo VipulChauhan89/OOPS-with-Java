@@ -1,0 +1,1 @@
+This text is to be copied in the another file byte by byte
