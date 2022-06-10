@@ -1,0 +1,2 @@
+This text is to be copied on console. 
+line by line.
